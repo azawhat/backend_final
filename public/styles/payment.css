@@ -1,0 +1,21 @@
+/* payment.css */
+
+.payment-methods {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.payment-method {
+    margin-bottom: 20px;
+}
+
+.payment-method img {
+    width: 60px; /* Adjust as needed */
+    margin-bottom: 10px;
+}
+
+button {
+    margin-left: 20px;
+    height: 40px;
+}

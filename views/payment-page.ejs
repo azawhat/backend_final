@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/styles/payment.css">
+    <link rel="stylesheet" type="text/css" href="/styles/styles.css">
+    <title>Payment Methods | Billion Courses</title>
+    <link rel="icon" href="images/logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-eval';">
+    <script src="/javascript/script.js"></script>
+    <script src="/javascript/payment-alerts.js" defer></script>
+</head>
+<body>
+    <%- include('parts/header.ejs') %>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Your Cart</h2>
+                <ul id="cartItems" class="list-group">
+                    <% cartItems.forEach(item => { %>
+                        <li class="list-group-item">
+                            <h5 class="card-title"><%= item.title %></h5>
+                            <p class="card-text">Price: $<%= item.price %></p>
+                        </li>
+                    <% }); %>
+                </ul> <br>
+                <div class="total-price">
+                    <h4>Total Price: $<span id="totalPrice"></span></h4>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h2>Select Payment Method</h2> <br>
+                <div class="payment-methods">
+                    <div class="payment-method">
+                        <img src="/images/paypal.webp">
+                        <button class="btn btn-primary">Use PayPal</button>
+                    </div>
+                    <div class="payment-method">
+                        <img src="/images/metamask.png">
+                        <button class="btn btn-primary">Use MetaMask</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="/cart" class="btn btn-secondary mt-3">Back to Cart</a>
+    </div>
+
+    <script src="/javascript/payment_methods.js"></script>
+</body>
+</html>

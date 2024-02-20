@@ -1,0 +1,37 @@
+.tab {
+    display: none;
+}
+
+.tab-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.tab-content {
+    margin-top: 10px;
+}
+
+#animatedButton {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+#animatedButton:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    .tab-button {
+        padding: 8px 16px; 
+    }
+
+    #animatedButton {
+        padding: 8px 16px; 
+    }
+}

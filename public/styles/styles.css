@@ -1,0 +1,197 @@
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #f2f2f2;
+  color: #333;
+  padding: 15px 0;
+}
+
+.logo #logo_img {
+  max-width: 78px;
+  float: left;
+  margin-left: 0px 0px 0px 30px;
+}
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+li {
+  cursor: pointer;
+  padding: 5px;
+  margin: 5px;
+  background-color: #fff;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+li:hover {
+  background-color: #f1f1f1;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.navbar-nav .nav-link {
+  color: #333;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #555;
+}
+
+.main-content {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.course {
+  margin-bottom: 30px;
+  border: 1px solid #ddd;
+  padding: 20px;
+  clear: both;
+}
+
+.course img {
+  max-width: 100%;
+  height: auto;
+}
+
+.cart-item {
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.course h2 {
+  margin-top: 10px;
+}
+
+.course p {
+  color: #666;
+  margin-top: 10px;
+}
+
+.course a {
+  display: block;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.course a:hover {
+  background-color: #555;
+}
+
+.tab {
+  background-color: #a9adb0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.tab button {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: background-color 0.3s, transform 0.2s;
+  font-size: 18px;
+}
+
+.tab button:hover {
+  background-color: #3c4d5f;
+  transform: scale(1.05);
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.tabcontent {
+  display: none;
+  padding: 12px 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-top: none;
+  font-size: 16px;
+}
+
+.tabcontent.active {
+  display: block;
+}
+
+/* Adjust the margin for logo */
+.logo {
+  text-align: center;
+}
+
+.logo img {
+  max-width: 78px;
+  margin-left: -15px; /* Adjust the margin to your preference */
+}
+
+.jumbotron {
+  background-image: url('images/background.jpg');
+  background-size: cover;
+  color: #000;
+  text-align: center;
+  padding: 100px 0;
+  margin-bottom: 0;
+}
+.jumbotron h1 h2{
+  font-size: 3rem;
+  color: #000;
+}
+.jumbotron p {
+  font-size: 1.5rem;
+  color: #000;
+}
+.icon-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.icon {
+  font-size: 3rem;
+  margin: 0 20px;
+  color: #000;
+}
+.icon-label {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .logo img {
+    margin-left: 10px; 
+  }
+
+  .navbar a {
+    padding: 10px; 
+  }
+
+  .main-content {
+    padding: 10px; 
+  }
+
+  .course {
+    padding: 10px;
+  }
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="/styles/forms.css">
+    <title>Registration form | Online Courses</title>
+    <link rel="icon" href="images/logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+    <%- include('parts/header.ejs') %>
+    <form id="registrationForm">
+        <div class="form-container">
+            <form id="register-form" action="/register" method="post">
+                <div class="form">
+                    <h2>Enter your fullname</h2>
+                    <input type="text" id="fullname" name="name">
+                </div>
+                
+                <div class="form">
+                    <h2>Enter your email:</h2>
+                    <input type="email" id="email" name="email">
+                </div>
+                
+                <div class="form">
+                    <h2>Enter your password:</h2>
+                    <input type="password" id="password" name="password">
+                    <div class="g-recaptcha" data-sitekey="6LesMGApAAAAAN0o8kDq5yi7R2VDIzMPj273hNlf"  style="margin-top: 10px;"></div>
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </form>
+    <script src="/javascript/registration.js"></script>
+</body>
+</html>

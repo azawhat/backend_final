@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/styles/styles.css">
+    <title>Home page | Billion Courses</title>
+    <link rel="icon" href="images/logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="/javascript/script.js"></script>
+</head>
+<body>
+    <%- include('parts/header.ejs') %>
+    
+    <div class="jumbotron">
+        <div class="container">
+            <h1>Welcome to Billion Courses</h1>
+            <p>Unlock Your Potential with Online Learning</p>
+            <a href="/courses" class="btn btn-secondary btn-lg">Explore Courses</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h2 class="text-center icon-label">Gain new experience</h2>
+                <p class="text-center">Get new source of information and learn something new!</p>
+            </div>
+            <div class="col-md-4">
+                <h2 class="text-center icon-label">Global Reach</h2>
+                <p class="text-center">Reach learners from around the world and share your knowledge globally.</p>
+            </div>
+            <div class="col-md-4">
+                <h2 class="text-center icon-label">Diverse Audience</h2>
+                <p class="text-center">Connect with learners from diverse backgrounds and cultures.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="jumbotron jumbotron-fluid bg-dark text-light mt-5 mb-0">
+        <div class="container text-center">
+            <p class="lead">Join our platform today and start your learning journey!</p>
+            <a href="/register" class="btn btn-secondary btn-lg">Sign Up Now</a>
+        </div>
+    </div>
+
+</body>
+
+</html>

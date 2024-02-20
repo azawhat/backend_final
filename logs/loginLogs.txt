@@ -1,0 +1,112 @@
+{"level":"info","message":"Invalid email or password","timestamp":"2024-02-02T11:32:20.106Z"}
+{"level":"info","message":"Invalid email or password","timestamp":"2024-02-02T11:32:20.110Z"}
+{"level":"info","message":"Invalid email or password","timestamp":"2024-02-02T11:32:20.111Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-02T11:32:26.340Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-02T11:32:26.342Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-02T11:32:26.343Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-02T11:32:26.411Z"}
+{"level":"info","message":"Invalid email or password","timestamp":"2024-02-02T19:55:31.853Z"}
+{"level":"info","message":"Invalid email or password","timestamp":"2024-02-02T19:55:35.767Z"}
+{"level":"info","message":"Invalid email or password","timestamp":"2024-02-02T19:55:35.839Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-02T19:55:59.202Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-02T19:56:57.773Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-02T20:04:28.826Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-02T20:05:18.770Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-02T20:06:12.698Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-02T20:08:30.701Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-02T20:10:03.588Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-02T20:11:25.936Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-02T20:13:27.705Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-02T20:16:10.250Z"}
+{"level":"info","message":"Invalid email or password","timestamp":"2024-02-05T13:37:57.237Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-05T13:42:15.395Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-05T13:48:26.138Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-05T13:48:26.142Z"}
+{"level":"info","message":"Invalid email or password","timestamp":"2024-02-05T14:45:03.042Z"}
+{"level":"info","message":"Invalid email or password","timestamp":"2024-02-05T14:45:03.044Z"}
+{"level":"info","message":"Invalid email or password","timestamp":"2024-02-05T14:45:04.462Z"}
+{"level":"info","message":"Invalid email or password","timestamp":"2024-02-05T14:45:04.464Z"}
+{"level":"info","message":"Invalid email or password","timestamp":"2024-02-05T14:45:04.533Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-05T14:45:19.456Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-05T14:45:19.460Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-05T14:45:19.461Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-05T14:45:19.463Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-05T15:04:24.335Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-05T15:54:29.362Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-05T16:50:04.544Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-05T16:50:45.250Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-05T17:35:01.206Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-05T17:35:37.001Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-05T17:35:53.450Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-05T17:37:47.401Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-05T17:39:22.660Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-05T17:39:38.943Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-05T17:41:46.357Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-05T17:43:31.734Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-05T17:55:59.357Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-05T17:57:04.519Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-05T17:58:23.566Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-05T18:02:36.280Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-05T18:03:20.700Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-05T18:07:10.848Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-05T18:08:12.450Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-05T18:08:16.018Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-05T18:08:16.092Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-05T18:08:34.826Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-05T18:08:34.850Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-05T18:08:34.853Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-05T18:08:54.062Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-05T18:10:11.910Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-05T18:10:22.024Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-05T18:10:22.026Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-05T18:13:34.007Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-05T18:14:45.902Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-06T09:57:13.677Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-06T10:37:49.684Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-08T20:24:28.135Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-08T20:39:13.649Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-08T20:40:08.086Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-08T21:02:25.851Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-08T21:03:19.978Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-08T21:05:23.943Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-08T21:05:56.834Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-08T21:07:34.303Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-08T21:10:46.764Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-08T21:12:00.529Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-08T21:19:50.977Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-08T21:26:15.967Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-08T21:27:14.642Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-08T22:13:43.695Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-08T22:15:24.286Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-08T22:18:46.120Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-08T22:20:08.995Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-08T22:23:35.086Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-08T22:23:46.699Z"}
+{"level":"info","message":"Invalid email or password","timestamp":"2024-02-08T22:37:57.031Z"}
+{"level":"info","message":"Invalid email or password","timestamp":"2024-02-08T22:38:02.440Z"}
+{"level":"info","message":"Invalid email or password","timestamp":"2024-02-08T22:38:02.513Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-08T22:38:06.696Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-08T22:38:06.700Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-08T22:38:06.769Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-08T22:39:30.060Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-08T22:40:50.458Z"}
+{"level":"info","message":"Invalid email or password","timestamp":"2024-02-08T22:41:24.976Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-08T22:42:23.058Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-08T22:42:23.060Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-08T22:47:22.310Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-08T22:47:53.566Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-08T22:49:10.970Z"}
+{"level":"info","message":"Invalid email or password","timestamp":"2024-02-08T22:52:05.227Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-08T22:54:00.930Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-08T22:54:29.667Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-08T22:55:12.197Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-09T10:56:54.587Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-09T10:58:20.078Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-09T10:59:31.342Z"}
+{"level":"info","message":"Login successful","timestamp":"2024-02-09T11:03:12.581Z"}
+{"level":"error","message":"Error during login: Cannot destructure property 'email' of 'req.body' as it is undefined.","stack":"TypeError: Cannot destructure property 'email' of 'req.body' as it is undefined.\n    at C:\\Users\\Azamat\\Desktop\\проджектс\\BACKEND_PROJECT\\server-login.js:26:13\n    at Layer.handle [as handle_request] (C:\\Users\\Azamat\\Desktop\\проджектс\\BACKEND_PROJECT\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\Azamat\\Desktop\\проджектс\\BACKEND_PROJECT\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at Route.dispatch (C:\\Users\\Azamat\\Desktop\\проджектс\\BACKEND_PROJECT\\node_modules\\express\\lib\\router\\route.js:114:3)\n    at Layer.handle [as handle_request] (C:\\Users\\Azamat\\Desktop\\проджектс\\BACKEND_PROJECT\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\Azamat\\Desktop\\проджектс\\BACKEND_PROJECT\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (C:\\Users\\Azamat\\Desktop\\проджектс\\BACKEND_PROJECT\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Azamat\\Desktop\\проджектс\\BACKEND_PROJECT\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (C:\\Users\\Azamat\\Desktop\\проджектс\\BACKEND_PROJECT\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\Azamat\\Desktop\\проджектс\\BACKEND_PROJECT\\node_modules\\express\\lib\\router\\index.js:47:12)","timestamp":"2024-02-09T11:33:49.001Z"}
+{"level":"error","message":"Error during login: Cannot destructure property 'email' of 'req.body' as it is undefined.","stack":"TypeError: Cannot destructure property 'email' of 'req.body' as it is undefined.\n    at C:\\Users\\Azamat\\Desktop\\проджектс\\BACKEND_PROJECT\\server-login.js:26:13\n    at Layer.handle [as handle_request] (C:\\Users\\Azamat\\Desktop\\проджектс\\BACKEND_PROJECT\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\Azamat\\Desktop\\проджектс\\BACKEND_PROJECT\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at Route.dispatch (C:\\Users\\Azamat\\Desktop\\проджектс\\BACKEND_PROJECT\\node_modules\\express\\lib\\router\\route.js:114:3)\n    at Layer.handle [as handle_request] (C:\\Users\\Azamat\\Desktop\\проджектс\\BACKEND_PROJECT\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\Azamat\\Desktop\\проджектс\\BACKEND_PROJECT\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (C:\\Users\\Azamat\\Desktop\\проджектс\\BACKEND_PROJECT\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Azamat\\Desktop\\проджектс\\BACKEND_PROJECT\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (C:\\Users\\Azamat\\Desktop\\проджектс\\BACKEND_PROJECT\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\Azamat\\Desktop\\проджектс\\BACKEND_PROJECT\\node_modules\\express\\lib\\router\\index.js:47:12)","timestamp":"2024-02-09T11:37:32.914Z"}
+{"level":"error","message":"Error during login: Cannot destructure property 'email' of 'req.body' as it is undefined.","stack":"TypeError: Cannot destructure property 'email' of 'req.body' as it is undefined.\n    at C:\\Users\\Azamat\\Desktop\\проджектс\\BACKEND_PROJECT\\server-login.js:26:13\n    at Layer.handle [as handle_request] (C:\\Users\\Azamat\\Desktop\\проджектс\\BACKEND_PROJECT\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\Azamat\\Desktop\\проджектс\\BACKEND_PROJECT\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at Route.dispatch (C:\\Users\\Azamat\\Desktop\\проджектс\\BACKEND_PROJECT\\node_modules\\express\\lib\\router\\route.js:114:3)\n    at Layer.handle [as handle_request] (C:\\Users\\Azamat\\Desktop\\проджектс\\BACKEND_PROJECT\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\Azamat\\Desktop\\проджектс\\BACKEND_PROJECT\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (C:\\Users\\Azamat\\Desktop\\проджектс\\BACKEND_PROJECT\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Azamat\\Desktop\\проджектс\\BACKEND_PROJECT\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (C:\\Users\\Azamat\\Desktop\\проджектс\\BACKEND_PROJECT\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\Azamat\\Desktop\\проджектс\\BACKEND_PROJECT\\node_modules\\express\\lib\\router\\index.js:47:12)","timestamp":"2024-02-09T11:38:34.577Z"}
+{"level":"error","message":"Error during login: Cannot destructure property 'email' of 'req.body' as it is undefined.","stack":"TypeError: Cannot destructure property 'email' of 'req.body' as it is undefined.\n    at C:\\Users\\Azamat\\Desktop\\проджектс\\BACKEND_PROJECT\\server-login.js:26:13\n    at Layer.handle [as handle_request] (C:\\Users\\Azamat\\Desktop\\проджектс\\BACKEND_PROJECT\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\Azamat\\Desktop\\проджектс\\BACKEND_PROJECT\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at Route.dispatch (C:\\Users\\Azamat\\Desktop\\проджектс\\BACKEND_PROJECT\\node_modules\\express\\lib\\router\\route.js:114:3)\n    at Layer.handle [as handle_request] (C:\\Users\\Azamat\\Desktop\\проджектс\\BACKEND_PROJECT\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\Azamat\\Desktop\\проджектс\\BACKEND_PROJECT\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (C:\\Users\\Azamat\\Desktop\\проджектс\\BACKEND_PROJECT\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Azamat\\Desktop\\проджектс\\BACKEND_PROJECT\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (C:\\Users\\Azamat\\Desktop\\проджектс\\BACKEND_PROJECT\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\Azamat\\Desktop\\проджектс\\BACKEND_PROJECT\\node_modules\\express\\lib\\router\\index.js:47:12)","timestamp":"2024-02-09T11:38:48.932Z"}
+{"level":"error","message":"Error during login: Cannot read properties of undefined (reading 'email')","stack":"TypeError: Cannot read properties of undefined (reading 'email')\n    at C:\\Users\\Azamat\\Desktop\\проджектс\\BACKEND_PROJECT\\server-login.js:26:28\n    at Layer.handle [as handle_request] (C:\\Users\\Azamat\\Desktop\\проджектс\\BACKEND_PROJECT\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\Azamat\\Desktop\\проджектс\\BACKEND_PROJECT\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at Route.dispatch (C:\\Users\\Azamat\\Desktop\\проджектс\\BACKEND_PROJECT\\node_modules\\express\\lib\\router\\route.js:114:3)\n    at Layer.handle [as handle_request] (C:\\Users\\Azamat\\Desktop\\проджектс\\BACKEND_PROJECT\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\Azamat\\Desktop\\проджектс\\BACKEND_PROJECT\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (C:\\Users\\Azamat\\Desktop\\проджектс\\BACKEND_PROJECT\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Azamat\\Desktop\\проджектс\\BACKEND_PROJECT\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (C:\\Users\\Azamat\\Desktop\\проджектс\\BACKEND_PROJECT\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\Azamat\\Desktop\\проджектс\\BACKEND_PROJECT\\node_modules\\express\\lib\\router\\index.js:47:12)","timestamp":"2024-02-09T11:39:47.479Z"}
+{"level":"error","message":"Error during login: Cannot read properties of undefined (reading 'email')","stack":"TypeError: Cannot read properties of undefined (reading 'email')\n    at C:\\Users\\Azamat\\Desktop\\проджектс\\BACKEND_PROJECT\\server-login.js:26:28\n    at Layer.handle [as handle_request] (C:\\Users\\Azamat\\Desktop\\проджектс\\BACKEND_PROJECT\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\Azamat\\Desktop\\проджектс\\BACKEND_PROJECT\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at Route.dispatch (C:\\Users\\Azamat\\Desktop\\проджектс\\BACKEND_PROJECT\\node_modules\\express\\lib\\router\\route.js:114:3)\n    at Layer.handle [as handle_request] (C:\\Users\\Azamat\\Desktop\\проджектс\\BACKEND_PROJECT\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\Azamat\\Desktop\\проджектс\\BACKEND_PROJECT\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (C:\\Users\\Azamat\\Desktop\\проджектс\\BACKEND_PROJECT\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Azamat\\Desktop\\проджектс\\BACKEND_PROJECT\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (C:\\Users\\Azamat\\Desktop\\проджектс\\BACKEND_PROJECT\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\Azamat\\Desktop\\проджектс\\BACKEND_PROJECT\\node_modules\\express\\lib\\router\\index.js:47:12)","timestamp":"2024-02-09T11:40:40.116Z"}

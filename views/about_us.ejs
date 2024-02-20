@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/styles/styles.css">
+    <title>About Us | Billion Courses</title>
+    <link rel="icon" href="images/logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<body>
+    <%- include('parts/header.ejs') %>
+
+    <div class="container mt-5">
+        <div class="card mb-3">
+            <div class="row no-gutters">
+                <div class="col-md-4">
+                    <img src="images/dev.jpg" class="card-img">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Azamat Yerezhepbayev</h5>
+                        <p class="card-text">Creator and leader of this project. Developer of the website and just the best!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="dropdown"  style="margin-bottom: 20px;" >
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="socialMediaDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Creator's Social Media
+            </button>
+            <div class="dropdown-menu" aria-labelledby="socialMediaDropdown">
+              <a class="dropdown-item" href="https://twitter.com/">
+                <i class="fab fa-twitter"></i> Twitter
+              </a>
+              <a class="dropdown-item" href="https://www.instagram.com/azawhat">
+                <i class="fab fa-instagram"></i> Instagram
+              </a>
+              <a class="dropdown-item" href="https://t.me/azawhat">
+                <i class="fab fa-telegram"></i> Telegram
+              </a>
+            </div>
+          </div>
+
+        <div class="tab">
+            <button class="tablinks" onclick="openTab(event, 'Goal')">Our Goal</button>
+            <button class="tablinks" onclick="openTab(event, 'Story')">Our Story</button>
+        </div>
+
+        <div class="tabcontent" id="Goal">
+            <h3>Our Goal</h3>
+            <p>Our goal is to create a website accessible to everyone where you can buy online courses that will help our users develop and grow. Create and sell courses at publicly available prices so that all people from different parts of the world can study.</p>
+        </div>
+        <div class="tabcontent" id="Story">
+            <h3>Our Story</h3>
+            <p>Our story begins from the depths of the garage like all the IT giants of the world (joke). In fact, it all started with a university course and continues to this day</p>
+        </div> <br>
+        
+        <h1>Our Sponsors</h1>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card mb-3">
+                    <img src="images/sponsor1.png" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Red Bull</h5>
+                        <p class="card-text">The red bull power engineer helps the developer not to fall asleep and work tirelessly. He will have more energy and he will come up with more creative ideas.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card mb-3">
+                    <img src="images/sponsor2.png" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Adobe</h5>
+                        <p class="card-text">Adobe has a lot of applications that need courses, so we sell them as official, even though they are not</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="/javascript/about_us.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+
+

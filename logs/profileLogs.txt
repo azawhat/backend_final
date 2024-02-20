@@ -1,0 +1,10 @@
+{"level":"error","message":"Error updating password: bcrypt is not defined","stack":"ReferenceError: bcrypt is not defined\n    at C:\\Users\\Azamat\\Desktop\\проджектс\\BACKEND_PROJECT\\server-profile.js:51:27\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-02-09T12:28:22.154Z"}
+{"level":"info","message":"Password updated successfully","timestamp":"2024-02-09T12:29:47.828Z"}
+{"level":"info","message":"Password updated successfully","timestamp":"2024-02-09T12:33:19.588Z"}
+{"level":"info","message":"Full name updated successfully","timestamp":"2024-02-09T23:08:25.850Z"}
+{"level":"info","message":"Full name updated successfully","timestamp":"2024-02-09T23:09:20.762Z"}
+{"level":"info","message":"Full name updated successfully","timestamp":"2024-02-09T23:09:30.173Z"}
+{"level":"info","message":"Password updated successfully","timestamp":"2024-02-09T23:10:47.361Z"}
+{"level":"info","message":"Fullname updated successfully","timestamp":"2024-02-09T23:32:37.742Z"}
+{"level":"info","message":"Fullname updated successfully","timestamp":"2024-02-15T09:22:13.815Z"}
+{"level":"info","message":"Fullname updated successfully","timestamp":"2024-02-15T09:29:25.200Z"}
