@@ -48,3 +48,4 @@
 {"level":"info","message":"Course added to cart successfully","timestamp":"2024-02-16T21:10:07.507Z"}
 {"level":"info","message":"Course added to cart successfully","timestamp":"2024-02-19T00:32:44.714Z"}
 {"level":"info","message":"Course removed from cart successfully","timestamp":"2024-02-19T02:51:57.334Z"}
+{"level":"info","message":"Course added to cart successfully","timestamp":"2024-02-20T10:38:07.375Z"}
