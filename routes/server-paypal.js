@@ -31,8 +31,8 @@ async function processPayment(userId, cartItems) {
                 description: 'Payment for courses'
             }],
             redirect_urls: {
-                return_url: 'http://localhost:3000/payment/success',
-                cancel_url: 'http://localhost:3000/payment/cancel'
+                return_url: 'https://a-billion-courses.onrender.com/payment/success',
+                cancel_url: 'https://a-billion-courses.onrender.com/payment/cancel'
             }
         };
 
