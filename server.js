@@ -15,8 +15,7 @@ const cartRouter = require('./routes/server-cart');
 const paymentRouter = require('./routes/server-payment');
 const app = express();
 const dotenv = require('dotenv')
-const port = process.env.PORT || 3000; // Use the PORT environment variable provided by Render, or default to 3000
-
+const port = process.env.PORT || 3000;
 
 let jwtToken = '';
 

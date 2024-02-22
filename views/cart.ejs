@@ -9,7 +9,7 @@
     <script src="/javascript/script.js"></script>
 </head>
 <body>
-    <%- include('parts/header.ejs') %>
+    <% include('parts/header.ejs') %>
     <div class="container mt-5">
         <h2>My Cart</h2>
         <div class="row">
@@ -19,7 +19,12 @@
                         <div class="card-body">
                             <h5 class="card-title"><%= item.title %></h5>
                             <p class="card-text">Price: $<%= item.price %></p>
-                            <button class="btn btn-sm btn-outline-secondary"" onclick="removeFromCart('<%= item.course_id %>')">Delete</button>
+                            <% if (item.payment_status) { %>
+                                <p class="text-success">Payment Status: Paid</p>
+                            <% } else { %>
+                                <p class="text-danger">Payment Status: Not Paid</p>
+                            <% } %>
+                            <button class="btn btn-sm btn-outline-secondary" onclick="removeFromCart('<%= item.course_id %>')">Delete</button>
                         </div>
                     </div>
                 </div>
