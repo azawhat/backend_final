@@ -19,16 +19,12 @@
                         <div class="card-body">
                             <h5 class="card-title"><%= item.title %></h5>
                             <p class="card-text">Price: $<%= item.price %></p>
-                            <% if (item.payment_status) { %>
-                                <p class="text-success">Payment Status: Paid</p>
-                            <% } else { %>
-                                <p class="text-danger">Payment Status: Not Paid</p>
-                            <% } %>
-                            <button class="btn btn-sm btn-outline-secondary" onclick="removeFromCart('<%= item.course_id %>')">Delete</button>
+                            <button class="btn btn-sm btn-outline-secondary"" onclick="removeFromCart('<%= item.course_id %>')">Delete</button>
                         </div>
                     </div>
                 </div>
-            <% }); %>            
+            <% }); %>
+             
         </div>
         <button class="btn btn-success" id="pay">Payment Methods</button>
     </div>
