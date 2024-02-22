@@ -61,11 +61,13 @@ app.get('/', (req, res) => {
 });
 
 app.get('/payment/success', (req, res) => {
-  res.render('profile');
+  res.render('payment-success');
 });
 
 app.get('/payment/cancel', (req, res) => {
+  res.render('payment-cancel'); 
 });
+
 
 app.get('/login', (req, res) => {
   res.render('login');

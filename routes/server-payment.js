@@ -30,11 +30,12 @@ router.get('/paypal', authenticateToken, async (req, res) => {
 });
 
 router.get('/success', async (req, res) => {
-    res.redirect('/profile'); 
+    res.render('payment-success'); 
 });
 
 router.get('/cancel', (req, res) => {
-    res.redirect('/cart'); 
+    res.render('payment-cancel'); 
 });
+
 
 module.exports = router;
