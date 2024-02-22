@@ -13,6 +13,22 @@
         <div class="container">
             <h1>Payment Successful</h1>
             <p>Your payment was successful. Thank you! Wait an email with the link to your courses!</p>
+            <% if (paidCourses.length > 0) { %>
+                <div class="row">
+                    <% paidCourses.forEach(course => { %>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title"><%= course.title %></h5>
+                                    <p class="card-text">Price: $<%= course.price %></p>
+                                </div>
+                            </div>
+                        </div>
+                    <% }); %>
+                </div>
+            <% } else { %>
+                <p>No courses found.</p>
+            <% } %>
         </div>
     </div>
 </body>
