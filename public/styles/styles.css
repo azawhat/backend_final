@@ -9,6 +9,10 @@ header {
   padding: 15px 0;
 }
 
+.paid-course {
+  background-color: #dff0d8; /* Use Bootstrap's success color */
+}
+
 .logo #logo_img {
   max-width: 78px;
   float: left;
