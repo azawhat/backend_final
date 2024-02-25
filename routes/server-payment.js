@@ -20,8 +20,9 @@ router.get('/', authenticateToken, async (req, res) => {
 router.get('/paypal', authenticateToken, async (req, res) => {
     try {
         const userId = req.user.userId;
+        const userEmail = req.user.email; 
         const cartItems = await pool.query('SELECT courses.id AS course_id, courses.title, courses.price FROM cart JOIN courses ON cart.course_id = courses.id WHERE cart.user_id = $1', [userId]);
-        const paymentUrl = await processPayment(userId, cartItems.rows);
+        const paymentUrl = await processPayment(userId, cartItems.rows, userEmail);
         res.redirect(paymentUrl);
     } catch (error) {
         console.error('Error processing PayPal payment:', error);

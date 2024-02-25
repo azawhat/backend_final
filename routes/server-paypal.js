@@ -7,9 +7,10 @@ paypal.configure({
     client_secret: 'EKzOnP_zXTN149cnQkWe3ToE9ed_Eft6aOtYZoTzu78c6Tbhe3hUrA7ayVTUXuvs7iHoFyoVIKwFRWXV'
 });
 
-async function processPayment(userId, cartItems) {
+async function processPayment(userId, cartItems, email) {
     try {
         let totalAmount = 0;
+        const courseIds = cartItems.map(item => item.course_id);
         for (const item of cartItems) {
             const price = parseFloat(item.price);
             if (!isNaN(price)) {
@@ -47,8 +48,7 @@ async function processPayment(userId, cartItems) {
         });
 
         const paymentId = createPayment.id;
-        await pool.query('INSERT INTO payments (user_id, payment_id) VALUES ($1, $2)', [userId, paymentId]);
-
+        await pool.query('INSERT INTO payments (user_id, payment_id, course_id, email) VALUES ($1, $2, $3, $4)', [userId, paymentId, courseIds, email]);
 
         const approvalUrl = createPayment.links.find(link => link.rel === 'approval_url');
         if (approvalUrl) {
