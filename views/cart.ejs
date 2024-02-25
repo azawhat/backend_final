@@ -11,6 +11,20 @@
 <body>
     <%- include('parts/header.ejs') %>
     <div class="container mt-5">
+        <h2>Paid Courses. Before paying do not forget to check this table!</h2>
+        <div class="row">
+            <% paidCourses.forEach(item => { %>
+                <div class="col-md-4">
+                    <div class="card cart-item">
+                        <div class="card-body">
+                            <h5 class="card-title"><%= item.title %></h5>
+                            <p class="card-text">Price: $<%= item.price %></p>
+                        </div>
+                    </div>
+                </div>
+            <% }); %>
+        </div>
+        
         <h2>My Cart</h2>
         <div class="row">
             <% cartItems.forEach(item => { %>
@@ -24,7 +38,6 @@
                     </div>
                 </div>
             <% }); %>
-             
         </div>
         <button class="btn btn-success" id="pay">Payment Methods</button>
     </div>

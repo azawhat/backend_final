@@ -19,8 +19,13 @@ const logger = winston.createLogger({
 router.get('/', authenticateToken, async (req, res) => {
   try {
     const userId = req.user.userId;
+
     const cartItems = await pool.query('SELECT courses.id AS course_id, courses.title, courses.price FROM cart JOIN courses ON cart.course_id = courses.id WHERE cart.user_id = $1', [userId]);
-    res.render('cart', { cartItems: cartItems.rows });
+  
+    const paidCoursesResult = await pool.query('SELECT courses.id AS course_id, courses.title, courses.price FROM payments JOIN courses ON courses.id = ANY(payments.course_id) WHERE payments.user_id = $1', [userId]);
+    const paidCourses = paidCoursesResult.rows;
+
+    res.render('cart', { cartItems: cartItems.rows, paidCourses });
   } catch (error) {
     logger.error('Error fetching user cart:', error);
     res.status(500).render('error', { message: 'Internal Server Error' });
