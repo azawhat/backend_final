@@ -21,6 +21,7 @@ router.get('/paypal', authenticateToken, async (req, res) => {
     try {
         const userId = req.user.userId;
         const userEmail = req.user.email; 
+        console.log('User Email:', userEmail); // Add this line to log the user's email
         const cartItems = await pool.query('SELECT courses.id AS course_id, courses.title, courses.price FROM cart JOIN courses ON cart.course_id = courses.id WHERE cart.user_id = $1', [userId]);
         const paymentUrl = await processPayment(userId, cartItems.rows, userEmail);
         res.redirect(paymentUrl);
@@ -33,14 +34,16 @@ router.get('/paypal', authenticateToken, async (req, res) => {
 router.get('/success', authenticateToken, async (req, res) => {
     try {
         const userId = req.user.userId;
+        console.log('User ID:', userId); // Add this line to log the user's ID
         await pool.query('DELETE FROM cart WHERE user_id = $1', [userId]);
-
+        console.log('Cart items deleted successfully'); // Add this line to log successful deletion
         res.render('payment-success');
     } catch (error) {
         console.error('Error processing payment success:', error);
         res.status(500).render('error', { message: 'Internal Server Error' });
     }
 });
+
 
 
 router.get('/cancel', (req, res) => {
