@@ -40,7 +40,7 @@ router.post('/', async (req, res) => {
     if (!passwordMatch) {
       return res.status(401).json({ error: 'Invalid email or password' });
     }
-    const token = jwt.sign({ userId: user.id }, secretKey);
+    const token = jwt.sign({ userId: user.id, email: user.email }, secretKey);
 
     res.cookie('jwtToken', token, { httpOnly: true });
     
