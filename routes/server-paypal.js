@@ -2,7 +2,7 @@ const paypal = require('paypal-rest-sdk');
 const pool = require('../db');
 
 paypal.configure({
-    mode: 'sandbox',
+    mode: 'sandbox', 
     client_id: 'AbXRnnr3A0oB-_NQZUXbtYofbY3qFdoRs33-rg3zArh7YniIIy2jIU3J75NYCiFLMP8q-NnIHYNIAbRU',
     client_secret: 'EKzOnP_zXTN149cnQkWe3ToE9ed_Eft6aOtYZoTzu78c6Tbhe3hUrA7ayVTUXuvs7iHoFyoVIKwFRWXV'
 });

@@ -33,17 +33,15 @@ router.get('/paypal', authenticateToken, async (req, res) => {
 router.get('/success', authenticateToken, async (req, res) => {
     try {
         const userId = req.user.userId;
-        const cartItems = await pool.query('SELECT course_id FROM cart WHERE user_id = $1', [userId]);
+        await pool.query('DELETE FROM cart WHERE user_id = $1', [userId]);
 
-        for (const item of cartItems.rows) {
-            await pool.query('UPDATE cart SET payment_status = true WHERE course_id = $1', [item.course_id]);
-        }
         res.render('payment-success');
     } catch (error) {
         console.error('Error processing payment success:', error);
         res.status(500).render('error', { message: 'Internal Server Error' });
     }
 });
+
 
 router.get('/cancel', (req, res) => {
     res.render('payment-cancel'); 
