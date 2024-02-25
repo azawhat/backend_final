@@ -10,7 +10,7 @@ header {
 }
 
 .paid-course {
-  background-color: #dff0d8; /* Use Bootstrap's success color */
+  background-color: #dff0d8; 
 }
 
 .logo #logo_img {
@@ -141,14 +141,13 @@ li:hover {
   display: block;
 }
 
-/* Adjust the margin for logo */
 .logo {
   text-align: center;
 }
 
 .logo img {
   max-width: 78px;
-  margin-left: -15px; /* Adjust the margin to your preference */
+  margin-left: -15px; 
 }
 
 .jumbotron {

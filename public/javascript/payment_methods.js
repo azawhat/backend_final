@@ -12,8 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const paymentButton = document.querySelector('.payment-methods .payment-method button');
     if (paymentButton) {
         paymentButton.addEventListener('click', function() {
-            // Redirect to the PayPal payment page
-            window.location.href = '/payment-page/paypal'; // Corrected route
+            window.location.href = '/payment-page/paypal'; 
         });
     }
 });
